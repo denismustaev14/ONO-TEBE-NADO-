@@ -27,7 +27,7 @@
   list-style-type: circle;
   gap: 32px;
   height: 22px;
-  font-family: Raleway, sans-serif;
+  
   letter-spacing: 1.2px;
 }
 .header__links-list-item_no-bullit {
@@ -39,7 +39,7 @@
 }
 .address {
   line-height: 24px;
-  font-family: Raleway;
+  
   display: flex;
   flex-direction: column;
   font-style: normal;
@@ -79,7 +79,7 @@
 }
 .cover-title {
   color: #fff;
-  font-family: Raleway;
+ 
   font-weight: 700;
   font-size: 100px;
   line-height: 115px;
@@ -108,7 +108,7 @@
 }
 .cover__description-text {
   color: #fff;
-  font-family: Raleway;
+  
   font-size: 22px;
   font-weight: 400;
   line-height: 28px;
@@ -120,7 +120,7 @@
 .bet-button {
   color: #fff;
   background: transparent;
-  font-family: Raleway;
+  
   font-size: 22px;
   font-weight: 500;
   line-height: 25.83px;
@@ -138,7 +138,7 @@
   padding: 0 20px 0px 20px;
 }
 .lots__heading {
-  font-family: Raleway;
+  
   font-size: 40px;
   font-weight: 700;
   line-height: 46.96px;
@@ -154,8 +154,6 @@
   height: 596px;
 }
 .lots__card-list {
-  display: flex;
-  justify-content: space-between;
   list-style-type: none;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -163,7 +161,6 @@
 }
 .card {
   width: 100%;
-  width: 334px;
   height: 596px;
   display: flex;
   flex-direction: column;
@@ -185,7 +182,7 @@
 }
 .card__title {
   color: #ffff;
-  font-family: Raleway;
+  
   font-size: 22px;
   font-weight: 700;
   line-height: 26.4px;
@@ -201,13 +198,13 @@
 }
 .card__text {
   color: #ffff;
-  font-family: Raleway;
+  
   font-size: 20px;
   font-weight: 400;
   line-height: 24px;
 }
 .lots__look-more-link {
-  font-family: Raleway;
+ 
   font-size: 20px;
   font-weight: 400;
   line-height: 23.48px;
@@ -241,7 +238,7 @@
   text-transform: uppercase;
 }
 .about-text {
-  font-family: Raleway;
+  
   font-size: 20px;
   font-weight: 400;
   line-height: 24px;
@@ -273,7 +270,7 @@
   padding: 0 50px 0 50px;
 }
 .footer-menu {
-  font-family: Raleway;
+ 
   font-size: 18px;
   font-weight: 400;
   line-height: 21.13px;
