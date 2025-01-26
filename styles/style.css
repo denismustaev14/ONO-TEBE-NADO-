@@ -6,19 +6,17 @@
 }
 .header {
   max-width: 1100px;
-  display: flex;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  padding: 50px 50px 50px 50px;
   justify-content: space-between;
-  align-items: center;
-  padding: 0px 50px 0px 50px;
-  position: relative;
-  margin-top:43px;
-  margin-bottom:41px;
+  margin-top: 42px;
+  margin-bottom: 42px;
 }
 .header_logo-image {
   width: 148px;
   height: 105px;
-  transform: translate(-50%, -50%);
-  margin-top: 100px;
+  margin-left: 38px;
 }
 .header_menu-list {
   display: flex;
@@ -26,6 +24,7 @@
   list-style-type: circle;
   gap: 32px;
   letter-spacing: 1.2px;
+  margin-top: 42px;
 }
 .header__links-list-item_no-bullit {
   list-style-type: none;
@@ -38,6 +37,7 @@
   text-underline-offset: 0.25em;
 }
 .address {
+  margin-top: 1.5px;
   line-height: 24px;
   display: flex;
   flex-direction: column;
@@ -235,7 +235,7 @@
   text-align: left;
   margin: 25px 5px 0 0;
 }
-.paragraph-main {
+.paragraph-primary {
   margin-bottom: 24px;
   width: 688px;
 }
@@ -253,7 +253,7 @@
   max-width: 1100px;
   display: grid;
   grid-template-columns: auto 1fr auto;
-  padding: 0 50px 0 50px;
+  padding: 0 50px 82px 50px;
 }
 .footer-menu {
   font-size: 18px;
@@ -262,10 +262,12 @@
   text-underline-position: from-font;
   text-decoration: none;
   text-align: center;
+  list-style-type: none;
 }
 .footer__menu-link {
   text-decoration: underline;
   text-underline-offset: 0.15em;
+  
 }
 .footer__menu-link_active {
   text-decoration: none;
